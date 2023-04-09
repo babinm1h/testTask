@@ -1,0 +1,20 @@
+$primary: #6000a0;
+$secondary: #979797;
+$success: #008f58;
+$info: #0085dd;
+$warning: #e05a00;
+$danger: #c7003c;
+
+@import "~bootstrap/scss/bootstrap";
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
